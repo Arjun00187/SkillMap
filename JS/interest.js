@@ -35,72 +35,349 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function() {
-    $("button#itA").click(function(q){
+    $("button#t1").click(function(q){
+        q.preventDefault();
+        $("#CS").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#t2").click(function(q){
+        q.preventDefault();
+        $("#CS").hide();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").toggle();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#t3").click(function(q){
+        q.preventDefault();
+        $("#CS").hide();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").toggle();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#t4").click(function(q){
         q.preventDefault();
         $("#IT").toggle();
         $("#BA").hide();
-        $("#LA").hide();
-        $("#accounting").hide();
-        $("#HE").hide();
-        $("#MECH").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#CS").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
     })
 })
+
 $(document).ready(function() {
-    $("button#itB").click(function(q){
+    $("button#b3").click(function(q){
         q.preventDefault();
         $("#BA").toggle();
+        $("#CS").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
         $("#IT").hide();
-        $("#LA").hide();
-        $("#accounting").hide();
-        $("#HE").hide();
-        $("#MECH").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
     })
 })
 $(document).ready(function() {
-    $("button#itC").click(function(q){
+    $("button#b1").click(function(q){
         q.preventDefault();
-        $("#LA").toggle();
+        $("#BM").toggle();
         $("#BA").hide();
+        $("#CS").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
         $("#IT").hide();
-        $("#accounting").hide();
-        $("#HE").hide();
-        $("#MECH").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+
+$(document).ready(function() {
+    $("button#h1").click(function(q){
+        q.preventDefault();
+        $("#LS").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#CS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
     })
 })
 $(document).ready(function() {
-    $("button#acc").click(function(q){
+    $("button#h2").click(function(q){
         q.preventDefault();
-        $("#accounting").toggle();
+        $("#HIS").toggle();
         $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#CS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
         $("#IT").hide();
-        $("#LA").hide();
-        $("#HE").hide();
-        $("#MECH").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+
+$(document).ready(function() {
+    $("button#e1").click(function(q){
+        q.preventDefault();
+        $("#acc").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#CS").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#e2").click(function(q){
+        q.preventDefault();
+        $("#COM").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#CS").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+$(document).ready(function() {
+    $("button#e3").click(function(q){
+        q.preventDefault();
+        $("#BF").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#CS").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+
+$(document).ready(function() {
+
+    $("button#a1").click(function(q){
+        q.preventDefault();
+        $("#pd").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#CS").hide();
     })
 })
 $(document).ready(function() {
 
-    $("button#econ").click(function(q){
+    $("button#a2").click(function(q){
         q.preventDefault();
-        $("#HE").toggle();
+        $("#VG").toggle();
         $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
         $("#IT").hide();
-        $("#LA").hide();
-        $("#accounting").hide();
-        $("#MECH").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#CS").hide();
+        $("#pd").hide();
     })
 })
 
   $(document).ready(function(){
 
-    $("button#ENG").click(function(q){
+    $("button#en1").click(function(q){
         q.preventDefault();
-        $("#MECH").toggle();
+        $("#MEC").toggle();
         $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
         $("#IT").hide();
-        $("#LA").hide();
-        $("#HE").hide();
-        $("#accounting").hide();
+        $("#CIV").hide();
+        $("#ELE").hide();
+        $("#CS").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+$(document).ready(function(){
+
+    $("button#en2").click(function(q){
+        q.preventDefault();
+        $("#ELE").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CIV").hide();
+        $("#CS").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
+    })
+})
+$(document).ready(function(){
+
+    $("button#en3").click(function(q){
+        q.preventDefault();
+        $("#CIV").toggle();
+        $("#BA").hide();
+        $("#BM").hide();
+        $("#LS").hide();
+        $("#acc").hide();
+        $("#BF").hide();
+        $("#COM").hide();
+        $("#HIS").hide();
+        $("#SE").hide();
+        $("#DS").hide();
+        $("#IT").hide();
+        $("#CS").hide();
+        $("#ELE").hide();
+        $("#MEC").hide();
+        $("#VG").hide();
+        $("#pd").hide();
     })
 })
 
